@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="bg-white py-12 px-6 w-[90.6%] flex gap-[30px] flex-col">
+    <main className="bg-white py-12 px-6 w-[90.6%] flex gap-[30px] flex-col rounded-3xl rounded-ee-[200px]">
       <section className="flex gap-[17px] justify-between items-center">
         <InputField label="day" placeholder="DD" />
         <InputField label="month" placeholder="MM" />
