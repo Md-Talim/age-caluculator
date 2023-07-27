@@ -21,7 +21,17 @@ export default function Home() {
           />
         </button>
       </section>
-      <section>Result</section>
+      <section>
+        <p className="text-[56px] font-bold italic tracking-[-1.12px] leading-[62px] flex gap-2">
+          <span className="text-primary">38</span>years
+        </p>
+        <p className="text-[56px] font-bold italic tracking-[-1.12px] leading-[62px] flex gap-2">
+          <span className="text-primary">3</span>months
+        </p>
+        <p className="text-[56px] font-bold italic tracking-[-1.12px] leading-[62px] flex gap-2">
+          <span className="text-primary">36</span>days
+        </p>
+      </section>
     </main>
   );
 }
